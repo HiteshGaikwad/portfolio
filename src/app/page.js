@@ -98,21 +98,21 @@ export default function home(){
       <section className='flex flex-col w-[85%]'>
         <h1 className={'font-bold text-4xl border-b-2 py-2 '+ (themeswitch?'border-black':"border-gray-500 text-3xl")}>Skills</h1>
         <div className='flex  gap-10  flex-wrap justify-center pt-5 -'>
-          <Image src={htmlIcon} alt='html icon' className={'w-20 h-20 rounded-full '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='HTML'/>
-          <Image src={cssIcon} alt='css icon' className={'w-20 h-20 rounded-full '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='CSS'/>
-          <Image src={javascriptIcon} alt='javascript icon' className={'w-20 h-20 rounded-full '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='Javascript'/>
-          <Image src={reactjsIcon} alt='react js icon' className={'w-20 h-20 rounded-full '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='React js'/>
-          <Image src={nodejsIcon} alt='node js icon' className={'w-20 h-20 rounded-full '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='Node js'/>
-          <Image src={expressIcon} alt='express js icon' className={'w-20 h-20 rounded-full '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='Express js'/>
-          <Image src={mongodbIcon} alt='mongo db icon' className={'w-20 h-20 rounded-full '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='MongoDB'/>
-          <Image src={nextjsIcon} alt='next js icon' className={ 'w-20 h-20 rounded-full bg-transparent '+ (themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='Next js'/>
-          <Image src={tailwindIcon} alt='tailwind icon' className={'w-20 h-20 rounded-full '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='Tailwind css'/>
-          <Image src={githubIcon} alt='github icon' className={'w-20 h-20 rounded-full '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='GitHub'/>
-          <Image src={javaIcon} alt='java icon' className={ 'w-20 h-20 '+ (themeswitch?'bg-none shadow-lg shadow-gray-500 rounded-full':'rounded-full shadow-lg shadow-white')} title='Java'/>
-          <Image src={materialUIIcon} alt='material UI icon' className={'w-20 h-20 rounded-full '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='Material UI'/>
-          <Image src={mysqlIcon} alt='mysql icon' className={'w-20 h-20 rounded-full '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='MySql'/>
-          <Image src={bootstrapIcon} alt='bootstrap icon' className={'w-20 h-20 rounded-full '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='Bootstrap'/>
-          <Image src={springbootIcon} alt='spring boot icon' className={'w-20 h-20 rounded-full '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='Spring Boot'/>
+          <Image src={htmlIcon} alt='html icon' className={'w-20 h-20 rounded-full hover:scale-110 transition 1s ease-linear '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='HTML'/>
+          <Image src={cssIcon} alt='css icon' className={'w-20 h-20 rounded-full hover:scale-110 transition 1s ease-linear '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='CSS'/>
+          <Image src={javascriptIcon} alt='javascript icon' className={'w-20 h-20 rounded-full hover:scale-110 transition 1s ease-linear '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='Javascript'/>
+          <Image src={reactjsIcon} alt='react js icon' className={'w-20 h-20 rounded-full hover:scale-110 transition 1s ease-linear '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='React js'/>
+          <Image src={nodejsIcon} alt='node js icon' className={'w-20 h-20 rounded-full hover:scale-110 transition 1s ease-linear '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='Node js'/>
+          <Image src={expressIcon} alt='express js icon' className={'w-20 h-20 rounded-full hover:scale-110 transition 1s ease-linear '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='Express js'/>
+          <Image src={mongodbIcon} alt='mongo db icon' className={'w-20 h-20 rounded-full hover:scale-110 transition 1s ease-linear '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='MongoDB'/>
+          <Image src={nextjsIcon} alt='next js icon' className={ 'w-20 h-20 rounded-full bg-transparent hover:scale-110 transition 1s ease-linear '+ (themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='Next js'/>
+          <Image src={tailwindIcon} alt='tailwind icon' className={'w-20 h-20 rounded-full hover:scale-110 transition 1s ease-linear '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='Tailwind css'/>
+          <Image src={githubIcon} alt='github icon' className={'w-20 h-20 rounded-full hover:scale-110 transition 1s ease-linear '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white bg-white')} title='GitHub'/>
+          <Image src={javaIcon} alt='java icon' className={ 'w-20 h-20 hover:scale-110 transition 1s ease-linear '+ (themeswitch?'bg-none shadow-lg shadow-gray-500 rounded-full':'rounded-full shadow-lg shadow-white')} title='Java'/>
+          <Image src={materialUIIcon} alt='material UI icon' className={'w-20 h-20 rounded-full hover:scale-110 transition 1s ease-linear '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='Material UI'/>
+          <Image src={mysqlIcon} alt='mysql icon' className={'w-20 h-20 rounded-full hover:scale-110 transition 1s ease-linear '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='MySql'/>
+          <Image src={bootstrapIcon} alt='bootstrap icon' className={'w-20 h-20 rounded-full hover:scale-110 transition 1s ease-linear '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='Bootstrap'/>
+          <Image src={springbootIcon} alt='spring boot icon' className={'w-20 h-20 rounded-full hover:scale-110 transition 1s ease-linear '+(themeswitch?'shadow-lg shadow-gray-500':'shadow-md shadow-white')} title='Spring Boot'/>
         </div>
       </section>
     </div>
