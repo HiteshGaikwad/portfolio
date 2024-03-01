@@ -46,7 +46,7 @@ const Projects=()=>{
             }
             {
                 selectedCategery==='frontend' && 
-                <div className='overflow-auto'>
+                <div className=''>
                 <div className='flex flex-wrap justify-center w-[100%] p-2 gap-5'>
                     {
                         frontendList.map((project,index)=>{

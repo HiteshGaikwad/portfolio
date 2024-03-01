@@ -1,0 +1,101 @@
+.animation-slide{
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+    0%{
+        width: 0px;
+    } 100%{
+        width:80%;
+    }
+}
+
+.css-slide{
+    animation-name: css;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes css {
+    0%{
+        width: 0px;
+    } 100%{
+        width:75%;
+    }
+}
+
+.javascript-slide{
+    animation-name: js;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes js {
+    0%{
+        width: 0px;
+    } 100%{
+        width:65%;
+    }
+}
+
+.nodejs-slide{
+    animation-name: node;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes node {
+    0%{
+        width: 0px;
+    } 100%{
+        width:50%;
+    }
+}
+
+.mongodb-slide{
+    animation-name: mongo;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes mongo {
+    0%{
+        width: 0px;
+    } 100%{
+        width:40%;
+    }
+}
+
+.nextjs-slide{
+    animation-name: next;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes next {
+    0%{
+        width: 0px;
+    } 100%{
+        width:60%;
+    }
+}
+
+.spring-slide{
+    animation-name: spring;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes spring {
+    0%{
+        width: 0px;
+    } 100%{
+        width:70%;
+    }
+}

@@ -36,13 +36,14 @@ export default function home(){
   return(
     <div className={" w-full h-full flex flex-col gap-2 justify-center items-center "+(themeswitch?'bg-white':'bg-gray-800 text-white')}>
       <section className='flex justify-around  w-full items-center gap-2'>
+        <div className='rounded-full p-[5px] bg-gradient-to-b from-red-600 from-5% via-yellow-400 via-40% to-blue-600 to-90% overflow-hidden'>
       <Image
       src={profilePic}
       width={150}
       height={150}
       alt="Picture of the author"
-      className='rounded-full p-[5px] bg-gradient-to-b from-red-600 from-5% via-yellow-400 via-40% to-blue-600 to-90%'
-    />
+      className=' hover:scale-105 rounded-full object-cover transition-all ease-linear duration-200 '
+    /></div>
     <div className='flex flex-col gap-3'>
     <h1 className='text-3xl font-semibold lg:w-80'>
       H
